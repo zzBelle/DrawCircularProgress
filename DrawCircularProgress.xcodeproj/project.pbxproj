@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		977757C61F559485007E1885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757C51F559485007E1885 /* main.m */; };
+		977757C91F559485007E1885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757C81F559485007E1885 /* AppDelegate.m */; };
+		977757CC1F559485007E1885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757CB1F559485007E1885 /* ViewController.m */; };
+		977757CF1F559485007E1885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977757CD1F559485007E1885 /* Main.storyboard */; };
+		977757D11F559485007E1885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977757D01F559485007E1885 /* Assets.xcassets */; };
+		977757D41F559485007E1885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977757D21F559485007E1885 /* LaunchScreen.storyboard */; };
+		977757DF1F559485007E1885 /* DrawCircularProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757DE1F559485007E1885 /* DrawCircularProgressTests.m */; };
+		977757EA1F559485007E1885 /* DrawCircularProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757E91F559485007E1885 /* DrawCircularProgressUITests.m */; };
+		977757F91F559504007E1885 /* DrawCircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977757F81F559504007E1885 /* DrawCircularView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		977757DB1F559485007E1885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977757B91F559485007E1885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977757C01F559485007E1885;
+			remoteInfo = DrawCircularProgress;
+		};
+		977757E61F559485007E1885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977757B91F559485007E1885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977757C01F559485007E1885;
+			remoteInfo = DrawCircularProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		977757C11F559485007E1885 /* DrawCircularProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawCircularProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		977757C51F559485007E1885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		977757C71F559485007E1885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		977757C81F559485007E1885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		977757CA1F559485007E1885 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		977757CB1F559485007E1885 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		977757CE1F559485007E1885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		977757D01F559485007E1885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		977757D31F559485007E1885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		977757D51F559485007E1885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977757DA1F559485007E1885 /* DrawCircularProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawCircularProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977757DE1F559485007E1885 /* DrawCircularProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawCircularProgressTests.m; sourceTree = "<group>"; };
+		977757E01F559485007E1885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977757E51F559485007E1885 /* DrawCircularProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawCircularProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977757E91F559485007E1885 /* DrawCircularProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawCircularProgressUITests.m; sourceTree = "<group>"; };
+		977757EB1F559485007E1885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977757F71F559504007E1885 /* DrawCircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircularView.h; sourceTree = "<group>"; };
+		977757F81F559504007E1885 /* DrawCircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircularView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977757BE1F559485007E1885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757D71F559485007E1885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757E21F559485007E1885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977757B81F559485007E1885 = {
+			isa = PBXGroup;
+			children = (
+				977757C31F559485007E1885 /* DrawCircularProgress */,
+				977757DD1F559485007E1885 /* DrawCircularProgressTests */,
+				977757E81F559485007E1885 /* DrawCircularProgressUITests */,
+				977757C21F559485007E1885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		977757C21F559485007E1885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977757C11F559485007E1885 /* DrawCircularProgress.app */,
+				977757DA1F559485007E1885 /* DrawCircularProgressTests.xctest */,
+				977757E51F559485007E1885 /* DrawCircularProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977757C31F559485007E1885 /* DrawCircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				977757C71F559485007E1885 /* AppDelegate.h */,
+				977757C81F559485007E1885 /* AppDelegate.m */,
+				977757CA1F559485007E1885 /* ViewController.h */,
+				977757CB1F559485007E1885 /* ViewController.m */,
+				977757F71F559504007E1885 /* DrawCircularView.h */,
+				977757F81F559504007E1885 /* DrawCircularView.m */,
+				977757CD1F559485007E1885 /* Main.storyboard */,
+				977757D01F559485007E1885 /* Assets.xcassets */,
+				977757D21F559485007E1885 /* LaunchScreen.storyboard */,
+				977757D51F559485007E1885 /* Info.plist */,
+				977757C41F559485007E1885 /* Supporting Files */,
+			);
+			path = DrawCircularProgress;
+			sourceTree = "<group>";
+		};
+		977757C41F559485007E1885 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				977757C51F559485007E1885 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		977757DD1F559485007E1885 /* DrawCircularProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				977757DE1F559485007E1885 /* DrawCircularProgressTests.m */,
+				977757E01F559485007E1885 /* Info.plist */,
+			);
+			path = DrawCircularProgressTests;
+			sourceTree = "<group>";
+		};
+		977757E81F559485007E1885 /* DrawCircularProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				977757E91F559485007E1885 /* DrawCircularProgressUITests.m */,
+				977757EB1F559485007E1885 /* Info.plist */,
+			);
+			path = DrawCircularProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977757C01F559485007E1885 /* DrawCircularProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977757EE1F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgress" */;
+			buildPhases = (
+				977757BD1F559485007E1885 /* Sources */,
+				977757BE1F559485007E1885 /* Frameworks */,
+				977757BF1F559485007E1885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawCircularProgress;
+			productName = DrawCircularProgress;
+			productReference = 977757C11F559485007E1885 /* DrawCircularProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		977757D91F559485007E1885 /* DrawCircularProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977757F11F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgressTests" */;
+			buildPhases = (
+				977757D61F559485007E1885 /* Sources */,
+				977757D71F559485007E1885 /* Frameworks */,
+				977757D81F559485007E1885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977757DC1F559485007E1885 /* PBXTargetDependency */,
+			);
+			name = DrawCircularProgressTests;
+			productName = DrawCircularProgressTests;
+			productReference = 977757DA1F559485007E1885 /* DrawCircularProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		977757E41F559485007E1885 /* DrawCircularProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977757F41F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgressUITests" */;
+			buildPhases = (
+				977757E11F559485007E1885 /* Sources */,
+				977757E21F559485007E1885 /* Frameworks */,
+				977757E31F559485007E1885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977757E71F559485007E1885 /* PBXTargetDependency */,
+			);
+			name = DrawCircularProgressUITests;
+			productName = DrawCircularProgressUITests;
+			productReference = 977757E51F559485007E1885 /* DrawCircularProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		977757B91F559485007E1885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Belle;
+				TargetAttributes = {
+					977757C01F559485007E1885 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					977757D91F559485007E1885 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 977757C01F559485007E1885;
+					};
+					977757E41F559485007E1885 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 977757C01F559485007E1885;
+					};
+				};
+			};
+			buildConfigurationList = 977757BC1F559485007E1885 /* Build configuration list for PBXProject "DrawCircularProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 977757B81F559485007E1885;
+			productRefGroup = 977757C21F559485007E1885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977757C01F559485007E1885 /* DrawCircularProgress */,
+				977757D91F559485007E1885 /* DrawCircularProgressTests */,
+				977757E41F559485007E1885 /* DrawCircularProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977757BF1F559485007E1885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977757D41F559485007E1885 /* LaunchScreen.storyboard in Resources */,
+				977757D11F559485007E1885 /* Assets.xcassets in Resources */,
+				977757CF1F559485007E1885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757D81F559485007E1885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757E31F559485007E1885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977757BD1F559485007E1885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977757CC1F559485007E1885 /* ViewController.m in Sources */,
+				977757C91F559485007E1885 /* AppDelegate.m in Sources */,
+				977757C61F559485007E1885 /* main.m in Sources */,
+				977757F91F559504007E1885 /* DrawCircularView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757D61F559485007E1885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977757DF1F559485007E1885 /* DrawCircularProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977757E11F559485007E1885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977757EA1F559485007E1885 /* DrawCircularProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977757DC1F559485007E1885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977757C01F559485007E1885 /* DrawCircularProgress */;
+			targetProxy = 977757DB1F559485007E1885 /* PBXContainerItemProxy */;
+		};
+		977757E71F559485007E1885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977757C01F559485007E1885 /* DrawCircularProgress */;
+			targetProxy = 977757E61F559485007E1885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		977757CD1F559485007E1885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977757CE1F559485007E1885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		977757D21F559485007E1885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977757D31F559485007E1885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		977757EC1F559485007E1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		977757ED1F559485007E1885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		977757EF1F559485007E1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawCircularProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		977757F01F559485007E1885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawCircularProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		977757F21F559485007E1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawCircularProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawCircularProgress.app/DrawCircularProgress";
+			};
+			name = Debug;
+		};
+		977757F31F559485007E1885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawCircularProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawCircularProgress.app/DrawCircularProgress";
+			};
+			name = Release;
+		};
+		977757F51F559485007E1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawCircularProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawCircularProgress;
+			};
+			name = Debug;
+		};
+		977757F61F559485007E1885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawCircularProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.DrawCircularProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawCircularProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977757BC1F559485007E1885 /* Build configuration list for PBXProject "DrawCircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977757EC1F559485007E1885 /* Debug */,
+				977757ED1F559485007E1885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977757EE1F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977757EF1F559485007E1885 /* Debug */,
+				977757F01F559485007E1885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977757F11F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977757F21F559485007E1885 /* Debug */,
+				977757F31F559485007E1885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977757F41F559485007E1885 /* Build configuration list for PBXNativeTarget "DrawCircularProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977757F51F559485007E1885 /* Debug */,
+				977757F61F559485007E1885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 977757B91F559485007E1885 /* Project object */;
+}

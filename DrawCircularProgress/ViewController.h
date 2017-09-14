@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *one;
+@property (weak, nonatomic) IBOutlet UITextField *two;
+@property (weak, nonatomic) IBOutlet UITextField *three;
 
 @end
 

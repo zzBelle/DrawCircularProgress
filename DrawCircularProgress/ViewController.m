@@ -32,35 +32,52 @@
 @end
 
 @implementation ViewController
+- (IBAction)touchUpFinish:(id)sender {
+    if (self.one.text.length > 0 && self.two.text.length > 0 && self.three.text.length > 0) {
+        [self editFrame];
+
+    }else {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"请输入参数" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {}];
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+
+    }
+    
+
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.one.layer.borderWidth = 1;
+    self.one.layer.borderColor = kColorWithRGB(255, 133, 73, 1.0).CGColor;
+    self.two.layer.borderWidth = 1;
+    self.two.layer.borderColor = kColorWithRGB(249, 202, 1, 1.0).CGColor;
+    self.three.layer.borderWidth = 1;
+    self.three.layer.borderColor = kColorWithRGB(82, 213, 206, 1.0).CGColor;
     // 创建视图
-    UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems: @[@"今日",@"本周"]];
-    segment.frame = CGRectMake((SCREEN_WIDTH - 288)/2, 30, 288, 44);
-    segment.selectedSegmentIndex = 0;
-    segment.layer.borderColor = kCommonGreenColor.CGColor;
-    segment.layer.borderWidth = 1;
-    segment.layer.cornerRadius = 22;
-    segment.layer.masksToBounds = YES;
-    [segment setTintColor:kCommonGreenColor];
-    [segment addTarget:self action:@selector(changeTime:) forControlEvents:UIControlEventValueChanged];
-    [self.view addSubview:segment];
+//    UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems: @[@"今日",@"本周"]];
+//    segment.frame = CGRectMake((SCREEN_WIDTH - 288)/2, 30, 288, 44);
+//    segment.selectedSegmentIndex = 0;
+//    segment.layer.borderColor = kCommonGreenColor.CGColor;
+//    segment.layer.borderWidth = 1;
+//    segment.layer.cornerRadius = 22;
+//    segment.layer.masksToBounds = YES;
+//    [segment setTintColor:kCommonGreenColor];
+//    [segment addTarget:self action:@selector(changeTime:) forControlEvents:UIControlEventValueChanged];
+//    [self.view addSubview:segment];
 
     [self drawCircle];
 }
 
-- (void)changeTime:(UISegmentedControl *)segment{
-    
-    _state = [NSString stringWithFormat:@"%ld",segment.selectedSegmentIndex+1];
-    [self editFrame];
+//- (void)changeTime:(UISegmentedControl *)segment{
 
-    
-}
+//    _state = [NSString stringWithFormat:@"%ld",segment.selectedSegmentIndex+1];
+//}
 
 - (void)drawCircle {
     // 外层圆
-    largeCircle = [[DrawCircularView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 194) / 2, 200, 194, 194)];
+    largeCircle = [[DrawCircularView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 194) / 2, 100, 194, 194)];
     largeCircle.progressTintColor = kColorWithRGB(255, 133, 73, 1.0);
     largeCircle.backgroundColor = kColorWithRGB(255, 133, 73, 0.1);
     largeCircle.layer.cornerRadius = largeCircle.frame.size.width/2;
@@ -124,13 +141,13 @@
 
 - (void)editFrame {
     
-    float allCount = 20;
+    float allCount = [self.one.text integerValue] + [self.two.text integerValue] + [self.three.text integerValue];
     endTime = 0;
     if (allCount != 0) {
         
-        bigCircleProgress = 2 / allCount; 
-        middleCircleProgress = 7 / allCount;
-        smallCircleProgress = 10 / allCount;
+        bigCircleProgress = [self.one.text integerValue] / allCount;
+        middleCircleProgress = [self.two.text integerValue] / allCount;
+        smallCircleProgress = [self.three.text integerValue] / allCount;
         
         if (bigCircleProgress == 1) {
             bigCircleProgress = 0.75;
